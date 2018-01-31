@@ -1,4 +1,4 @@
-package com.crm.setup;
+package com.demo.setup;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.crm.dozer.model;
+package com.demo.dozer.model;
 
 import java.util.Date;
 

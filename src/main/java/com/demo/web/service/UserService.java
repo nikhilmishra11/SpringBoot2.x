@@ -1,11 +1,11 @@
 /**
  * 
  */
-package com.crm.web.service;
+package com.demo.web.service;
 
 import java.util.List;
 
-import com.crm.jpa.model.User;
+import com.demo.jpa.model.User;
 
 /**
  * @author Nikhil

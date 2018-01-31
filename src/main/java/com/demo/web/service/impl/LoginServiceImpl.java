@@ -1,10 +1,10 @@
 /**
  * 
  */
-package com.crm.web.service.impl;
+package com.demo.web.service.impl;
 
-import com.crm.jpa.model.User;
-import com.crm.web.service.LoginService;
+import com.demo.jpa.model.User;
+import com.demo.web.service.LoginService;
 
 /**
  * @author Nikhil

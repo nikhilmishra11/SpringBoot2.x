@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.crm.web.service.impl;
+package com.demo.web.service.impl;
 
 import java.util.Date;
 import java.util.List;
@@ -9,9 +9,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.crm.jpa.model.User;
-import com.crm.web.repository.UserRepository;
-import com.crm.web.service.UserService;
+import com.demo.jpa.model.User;
+import com.demo.web.repository.UserRepository;
+import com.demo.web.service.UserService;
 
 /**
  * @author Nikhil

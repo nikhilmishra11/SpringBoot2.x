@@ -1,9 +1,9 @@
 /**
  * 
  */
-package com.crm.web.service;
+package com.demo.web.service;
 
-import com.crm.jpa.model.User;
+import com.demo.jpa.model.User;
 
 /**
  * @author Nikhil

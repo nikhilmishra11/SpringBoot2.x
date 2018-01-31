@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.crm.jpa.model;
+package com.demo.jpa.model;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -37,6 +37,12 @@ public class User implements Serializable{
 	@Column(name="password", nullable=false )
 	private String password;
 
+	@Column(name="firat_Name", nullable=false )
+	private String firstName;
+	
+	@Column(name="last_name", nullable=false )
+	private String lastName;
+	
 	@Column(name="email_id", unique = true, nullable=false)
 	private String emailId;
 
@@ -74,6 +80,22 @@ public class User implements Serializable{
 
 	public void setPassword(String password) {
 		this.password = password;
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
 	}
 
 	public String getEmailId() {
