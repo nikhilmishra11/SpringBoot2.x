@@ -3,6 +3,7 @@
  */
 package com.demo.web.service;
 
+import com.demo.jpa.model.LoginUser;
 import com.demo.jpa.model.User;
 
 /**
@@ -11,5 +12,5 @@ import com.demo.jpa.model.User;
  */
 public interface LoginService {
 
-	public User login(String username, String password);
+	public User login(LoginUser loginUser);
 }

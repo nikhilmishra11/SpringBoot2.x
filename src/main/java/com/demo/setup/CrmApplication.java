@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 @ComponentScan("com.demo.web")
-@EnableJpaRepositories("com.demo.web")
+@EnableJpaRepositories("com.demo.web.repository")
 @EntityScan("com.demo.jpa.model")
 public class CrmApplication {
 
