@@ -15,8 +15,11 @@ public class CrmApplication {
 	public static void main(String[] args) {
 		SpringApplication.run( new Class[] { 
 				CrmApplication.class, 
-				ServletInitializer.class
+				ServletInitializer.class,
+				SwaggerConfig.class
+				//WebMVCConfiguration.class
 			}, 
 			args);
 	}
+	
 }

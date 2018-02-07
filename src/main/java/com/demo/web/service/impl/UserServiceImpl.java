@@ -36,9 +36,13 @@ public class UserServiceImpl implements UserService {
 
 	@Override
 	public void add(User user) {
-		user.setCreatedBy(user.getUsername());
+		if(null==user.getCreatedBy()) {
+			user.setCreatedBy(user.getUsername());
+		}
 		user.setCreatedDate(new Date());
-		user.setModifiedBy(user.getUsername());
+		if(null==user.getModifiedBy()) {
+			user.setModifiedBy(user.getUsername());
+		}
 		user.setModifiedDate(new Date());
 		userRepository.save(user);
 	}

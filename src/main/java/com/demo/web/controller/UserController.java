@@ -21,17 +21,12 @@ import com.demo.web.service.UserService;
  * 22-Jan-2018
  */
 
-@CrossOrigin(origins="http://localhost:4200")
+//@CrossOrigin(origins="http://localhost:4200")
 @RestController
 public class UserController {
 
 	@Autowired
 	private UserService userService;
-	
-	@GetMapping("/users")
-	public List<User> get() {
-		return userService.getAll();
-	}
 	
 	@GetMapping("/user/{id}")
 	public User get(@PathVariable("id") Long userId) {
